@@ -13,7 +13,7 @@ Source for interrogating the upstream Fingerbank API
 use Moose;
 extends 'fingerbank::Base::Source';
 
-use JSON;
+use JSON::MaybeXS;
 
 use fingerbank::Config;
 use fingerbank::Constant qw($TRUE);

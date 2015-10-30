@@ -31,6 +31,7 @@ Requires:   perl(Log::Log4perl)
 Requires:   perl(Catalyst::Model::DBIC::Schema)
 Requires:   perl(Catalyst::Action::REST)
 Requires:   perl(DBD::SQLite)
+Requires:   perl(JSON::MaybeXS)
 Requires:   perl(LWP::Protocol::https)
 Requires:   perl(MooseX::NonMoose)
 

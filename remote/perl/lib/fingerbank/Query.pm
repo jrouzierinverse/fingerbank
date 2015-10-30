@@ -3,7 +3,7 @@ package fingerbank::Query;
 use Moose;
 use namespace::autoclean;
 
-use JSON;
+use JSON::MaybeXS;
 use LWP::UserAgent;
 use Module::Load;
 use POSIX;

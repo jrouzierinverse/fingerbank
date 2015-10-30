@@ -15,7 +15,7 @@ extends 'fingerbank::Base::Source';
 
 use namespace::autoclean;
 
-use JSON;
+use JSON::MaybeXS;
 use LWP::UserAgent;
 use Module::Load;
 use POSIX;

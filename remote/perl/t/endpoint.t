@@ -59,7 +59,7 @@ my $json_result = <<"RESULT";
 }
 RESULT
 
-use JSON;
+use JSON::MaybeXS;
 my $result = decode_json($json_result);
 
 $endpoint = fingerbank::Model::Endpoint->fromResult($result);

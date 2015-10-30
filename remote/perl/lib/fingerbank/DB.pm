@@ -14,7 +14,7 @@ use Moose;
 use namespace::autoclean;
 
 use File::Copy qw(copy move);
-use JSON;
+use JSON::MaybeXS;
 use LWP::UserAgent;
 use POSIX qw(strftime);
 
